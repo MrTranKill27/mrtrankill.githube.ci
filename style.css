@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,200;6..72,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Newsreader', serif;
+
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+.Btn_add {
+    width: fit-content;
+    margin-bottom: 20px;
+    background-color: brown;
+    padding: 5px 20px;
+    color: azure;
+    display: flex;
+    align-items: center;
+    text-align: 0;
+    border-radius: 6px;
+}
+.Btn_add img {
+    margin-right: 5px;
+    height: 20px;
+}
+
+/*tableau*/
+table{
+    border-collapse: collapse;
+    color: rgb(0, 0, 0);
+}
+th {
+    font-size: 16px;
+    border-bottom: 3px solid brown;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+td {
+    font-weight: 400;
+    padding: 5px 30px;
+    font-size: 14px;
+    text-align: center;
+
+}
+img {
+    height: 25px;
+}
+tr:nth-child(2n){
+    background-color: rgb(215, 219, 219);
+}
+tr:nth-child(2n) td {
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e1;
+}
+/*Form CSS*/
+.form {
+    background-color: #660404a2;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    border-radius: 6px;
+}
+.form form {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+}
+.back_btn {
+    color: rgb(97, 0, 0);
+    text-decoration: 0;
+    display: flex;
+    align-items: center;
+}
+.back_btn img {
+    height: 16px;
+    margin-right: 5px;
+}
+h2 {
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.erreur_message {
+    color: rgb(255, 68, 68);
+    font-size: 12px;
+}
+label {
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+input {
+    padding: 5px;
+    border: 1px solid #999099;
+    outline: 0;
+    margin-top: 2px;
+}
+input:focus{
+    border: 1px solid brown;
+}
+input[ type="submit"]{
+    margin-top: 25px;
+    background-color: rgb(165, 14, 14);
+    border: 1px solid rgb(165, 14, 14);
+    cursor: pointer;
+    color: beige;
+    text-transform: uppercase;
+}
